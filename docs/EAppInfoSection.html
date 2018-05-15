@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta id="repository-name" content="github.com/CerteXCm/steam.cr">
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="js/doc.js"></script>
+  <title>EAppInfoSection - github.com/CerteXCm/steam.cr</title>
+</head>
+<body>
+
+<div id="types-list">
+  <div id="search-box">
+    <input type="search" id="search-input" placeholder="Search...">
+  </div>
+
+  <ul>
+    <li><a href="index.html">README</a></li>
+  </ul>
+
+  <ul>
+  
+  <li class=" " data-id="github.com/CerteXCm/steam.cr/EAccountFlags" data-name="eaccountflags">
+      <a href="EAccountFlags.html">EAccountFlags</a>
+      
+    </li>
+  
+  <li class=" " data-id="github.com/CerteXCm/steam.cr/EAccountType" data-name="eaccounttype">
+      <a href="EAccountType.html">EAccountType</a>
+      
+    </li>
+  
+  <li class=" " data-id="github.com/CerteXCm/steam.cr/EActivationCodeClass" data-name="eactivationcodeclass">
+      <a href="EActivationCodeClass.html">EActivationCodeClass</a>
+      
+    </li>
+  
+  <li class=" current" data-id="github.com/CerteXCm/steam.cr/EAppInfoSection" data-name="eappinfosection">
+      <a href="EAppInfoSection.html">EAppInfoSection</a>
+      
+    </li>
+  
+  <li class="parent " data-id="github.com/CerteXCm/steam.cr/Steam" data-name="steam">
+      <a href="Steam.html">Steam</a>
+      
+        <ul>
+  
+  <li class=" " data-id="github.com/CerteXCm/steam.cr/Steam/Totp" data-name="steam::totp">
+      <a href="Steam/Totp.html">Totp</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+</div>
+
+<div id="main-content">
+<h1 class="type-name">
+
+  <span class="kind">enum</span> EAppInfoSection
+
+</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2>Defined in:</h2>
+  
+    
+      <a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAppInfoSection.cr#L1" target="_blank">steam/enums/EAppInfoSection.cr</a>
+    
+    <br/>
+  
+
+
+
+  
+    <h2>Enum Members</h2>
+  
+  <dl>
+    
+      <dt class="entry-const" id="Unknown">
+        <strong>Unknown</strong> = <code><span class="n">0</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="All">
+        <strong>All</strong> = <code><span class="n">1</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="Common">
+        <strong>Common</strong> = <code><span class="n">2</span></code>
+      </dt>
+      
+      <dd class="entry-const-doc">
+        <p>First: 2,</p>
+      </dd>
+      
+    
+      <dt class="entry-const" id="Extended">
+        <strong>Extended</strong> = <code><span class="n">3</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="Config">
+        <strong>Config</strong> = <code><span class="n">4</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="Stats">
+        <strong>Stats</strong> = <code><span class="n">5</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="Install">
+        <strong>Install</strong> = <code><span class="n">6</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="Depots">
+        <strong>Depots</strong> = <code><span class="n">7</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="VAC">
+        <strong>VAC</strong> = <code><span class="n">8</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="DRM">
+        <strong>DRM</strong> = <code><span class="n">9</span></code>
+      </dt>
+      
+      <dd class="entry-const-doc">
+        <p>removed
+VAC_UNUSED: 8, # removed</p>
+      </dd>
+      
+    
+      <dt class="entry-const" id="UFS">
+        <strong>UFS</strong> = <code><span class="n">10</span></code>
+      </dt>
+      
+      <dd class="entry-const-doc">
+        <p>removed
+DRM_UNUSED: 9, # removed</p>
+      </dd>
+      
+    
+      <dt class="entry-const" id="OGG">
+        <strong>OGG</strong> = <code><span class="n">11</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="Items">
+        <strong>Items</strong> = <code><span class="n">12</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="Policies">
+        <strong>Policies</strong> = <code><span class="n">13</span></code>
+      </dt>
+      
+      <dd class="entry-const-doc">
+        <p>removed
+ItemsUNUSED: 12, # removed</p>
+      </dd>
+      
+    
+      <dt class="entry-const" id="SysReqs">
+        <strong>SysReqs</strong> = <code><span class="n">14</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="Community">
+        <strong>Community</strong> = <code><span class="n">15</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="Store">
+        <strong>Store</strong> = <code><span class="n">16</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="Max">
+        <strong>Max</strong> = <code><span class="n">17</span></code>
+      </dt>
+      
+    
+  </dl>
+
+
+
+
+
+
+
+  <h2>Instance Method Summary</h2>
+  <ul class="list-summary">
+    
+      <li class="entry-summary">
+        <a href="#all%3F-instance-method" class="signature"><strong>#all?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#common%3F-instance-method" class="signature"><strong>#common?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#community%3F-instance-method" class="signature"><strong>#community?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#config%3F-instance-method" class="signature"><strong>#config?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#depots%3F-instance-method" class="signature"><strong>#depots?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#drm%3F-instance-method" class="signature"><strong>#drm?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#extended%3F-instance-method" class="signature"><strong>#extended?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#install%3F-instance-method" class="signature"><strong>#install?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#items%3F-instance-method" class="signature"><strong>#items?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#max%3F-instance-method" class="signature"><strong>#max?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#ogg%3F-instance-method" class="signature"><strong>#ogg?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#policies%3F-instance-method" class="signature"><strong>#policies?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#stats%3F-instance-method" class="signature"><strong>#stats?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#store%3F-instance-method" class="signature"><strong>#store?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#sys_reqs%3F-instance-method" class="signature"><strong>#sys_reqs?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#ufs%3F-instance-method" class="signature"><strong>#ufs?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#unknown%3F-instance-method" class="signature"><strong>#unknown?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#vac%3F-instance-method" class="signature"><strong>#vac?</strong></a>
+        
+      </li>
+    
+  </ul>
+
+
+
+
+
+<div class="methods-inherited">
+  
+    
+
+
+    
+
+
+    
+
+
+  
+    
+
+
+    
+
+
+    
+
+
+  
+    
+
+
+    
+
+
+    
+
+
+  
+    
+
+
+    
+
+
+    
+
+
+  
+</div>
+
+
+
+
+
+
+  <h2>Instance Method Detail</h2>
+  
+    <div class="entry-detail" id="all?-instance-method">
+      <div class="signature">
+        
+        def <strong>all?</strong>
+
+        <a class="method-permalink" href="#all%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAppInfoSection.cr#L3" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="common?-instance-method">
+      <div class="signature">
+        
+        def <strong>common?</strong>
+
+        <a class="method-permalink" href="#common%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAppInfoSection.cr#L5" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="community?-instance-method">
+      <div class="signature">
+        
+        def <strong>community?</strong>
+
+        <a class="method-permalink" href="#community%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAppInfoSection.cr#L21" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="config?-instance-method">
+      <div class="signature">
+        
+        def <strong>config?</strong>
+
+        <a class="method-permalink" href="#config%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAppInfoSection.cr#L7" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="depots?-instance-method">
+      <div class="signature">
+        
+        def <strong>depots?</strong>
+
+        <a class="method-permalink" href="#depots%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAppInfoSection.cr#L10" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="drm?-instance-method">
+      <div class="signature">
+        
+        def <strong>drm?</strong>
+
+        <a class="method-permalink" href="#drm%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAppInfoSection.cr#L13" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="extended?-instance-method">
+      <div class="signature">
+        
+        def <strong>extended?</strong>
+
+        <a class="method-permalink" href="#extended%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAppInfoSection.cr#L6" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="install?-instance-method">
+      <div class="signature">
+        
+        def <strong>install?</strong>
+
+        <a class="method-permalink" href="#install%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAppInfoSection.cr#L9" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="items?-instance-method">
+      <div class="signature">
+        
+        def <strong>items?</strong>
+
+        <a class="method-permalink" href="#items%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAppInfoSection.cr#L17" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="max?-instance-method">
+      <div class="signature">
+        
+        def <strong>max?</strong>
+
+        <a class="method-permalink" href="#max%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAppInfoSection.cr#L23" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="ogg?-instance-method">
+      <div class="signature">
+        
+        def <strong>ogg?</strong>
+
+        <a class="method-permalink" href="#ogg%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAppInfoSection.cr#L16" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="policies?-instance-method">
+      <div class="signature">
+        
+        def <strong>policies?</strong>
+
+        <a class="method-permalink" href="#policies%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAppInfoSection.cr#L19" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="stats?-instance-method">
+      <div class="signature">
+        
+        def <strong>stats?</strong>
+
+        <a class="method-permalink" href="#stats%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAppInfoSection.cr#L8" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="store?-instance-method">
+      <div class="signature">
+        
+        def <strong>store?</strong>
+
+        <a class="method-permalink" href="#store%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAppInfoSection.cr#L22" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="sys_reqs?-instance-method">
+      <div class="signature">
+        
+        def <strong>sys_reqs?</strong>
+
+        <a class="method-permalink" href="#sys_reqs%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAppInfoSection.cr#L20" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="ufs?-instance-method">
+      <div class="signature">
+        
+        def <strong>ufs?</strong>
+
+        <a class="method-permalink" href="#ufs%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAppInfoSection.cr#L15" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="unknown?-instance-method">
+      <div class="signature">
+        
+        def <strong>unknown?</strong>
+
+        <a class="method-permalink" href="#unknown%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAppInfoSection.cr#L2" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="vac?-instance-method">
+      <div class="signature">
+        
+        def <strong>vac?</strong>
+
+        <a class="method-permalink" href="#vac%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAppInfoSection.cr#L11" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+
+
+
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta id="repository-name" content="github.com/CerteXCm/steam.cr">
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="js/doc.js"></script>
+  <title>EAccountFlags - github.com/CerteXCm/steam.cr</title>
+</head>
+<body>
+
+<div id="types-list">
+  <div id="search-box">
+    <input type="search" id="search-input" placeholder="Search...">
+  </div>
+
+  <ul>
+    <li><a href="index.html">README</a></li>
+  </ul>
+
+  <ul>
+  
+  <li class=" current" data-id="github.com/CerteXCm/steam.cr/EAccountFlags" data-name="eaccountflags">
+      <a href="EAccountFlags.html">EAccountFlags</a>
+      
+    </li>
+  
+  <li class=" " data-id="github.com/CerteXCm/steam.cr/EAccountType" data-name="eaccounttype">
+      <a href="EAccountType.html">EAccountType</a>
+      
+    </li>
+  
+  <li class=" " data-id="github.com/CerteXCm/steam.cr/EActivationCodeClass" data-name="eactivationcodeclass">
+      <a href="EActivationCodeClass.html">EActivationCodeClass</a>
+      
+    </li>
+  
+  <li class=" " data-id="github.com/CerteXCm/steam.cr/EAppInfoSection" data-name="eappinfosection">
+      <a href="EAppInfoSection.html">EAppInfoSection</a>
+      
+    </li>
+  
+  <li class="parent " data-id="github.com/CerteXCm/steam.cr/Steam" data-name="steam">
+      <a href="Steam.html">Steam</a>
+      
+        <ul>
+  
+  <li class=" " data-id="github.com/CerteXCm/steam.cr/Steam/Totp" data-name="steam::totp">
+      <a href="Steam/Totp.html">Totp</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+</div>
+
+<div id="main-content">
+<h1 class="type-name">
+
+  <span class="kind">enum</span> EAccountFlags
+
+</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2>Defined in:</h2>
+  
+    
+      <a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L2" target="_blank">steam/enums/EAccountFlags.cr</a>
+    
+    <br/>
+  
+
+
+
+  
+    <h2>Enum Members</h2>
+  
+  <dl>
+    
+      <dt class="entry-const" id="NormalUser">
+        <strong>NormalUser</strong> = <code><span class="n">1</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="PersonaNameSet">
+        <strong>PersonaNameSet</strong> = <code><span class="n">2</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="Unbannable">
+        <strong>Unbannable</strong> = <code><span class="n">4</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="PasswordSet">
+        <strong>PasswordSet</strong> = <code><span class="n">8</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="Support">
+        <strong>Support</strong> = <code><span class="n">16</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="Admin">
+        <strong>Admin</strong> = <code><span class="n">32</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="Supervisor">
+        <strong>Supervisor</strong> = <code><span class="n">64</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="AppEditor">
+        <strong>AppEditor</strong> = <code><span class="n">128</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="HWIDSet">
+        <strong>HWIDSet</strong> = <code><span class="n">256</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="PersonalQASet">
+        <strong>PersonalQASet</strong> = <code><span class="n">512</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="VacBeta">
+        <strong>VacBeta</strong> = <code><span class="n">1024</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="Debug">
+        <strong>Debug</strong> = <code><span class="n">2048</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="Disabled">
+        <strong>Disabled</strong> = <code><span class="n">4096</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="LimitedUser">
+        <strong>LimitedUser</strong> = <code><span class="n">8192</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="LimitedUserForce">
+        <strong>LimitedUserForce</strong> = <code><span class="n">16384</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="EmailValidated">
+        <strong>EmailValidated</strong> = <code><span class="n">32768</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="MarketingTreatment">
+        <strong>MarketingTreatment</strong> = <code><span class="n">65536</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="OGGInviteOptOut">
+        <strong>OGGInviteOptOut</strong> = <code><span class="n">131072</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="ForcePasswordChange">
+        <strong>ForcePasswordChange</strong> = <code><span class="n">262144</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="ForceEmailVerification">
+        <strong>ForceEmailVerification</strong> = <code><span class="n">524288</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="LogonExtraSecurity">
+        <strong>LogonExtraSecurity</strong> = <code><span class="n">1048576</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="LogonExtraSecurityDisabled">
+        <strong>LogonExtraSecurityDisabled</strong> = <code><span class="n">2097152</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="Steam2MigrationComplete">
+        <strong>Steam2MigrationComplete</strong> = <code><span class="n">4194304</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="NeedLogs">
+        <strong>NeedLogs</strong> = <code><span class="n">8388608</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="Lockdown">
+        <strong>Lockdown</strong> = <code><span class="n">16777216</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="MasterAppEditor">
+        <strong>MasterAppEditor</strong> = <code><span class="n">33554432</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="BannedFromWebAPI">
+        <strong>BannedFromWebAPI</strong> = <code><span class="n">67108864</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="ClansOnlyFromFriends">
+        <strong>ClansOnlyFromFriends</strong> = <code><span class="n">134217728</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="GlobalModerator">
+        <strong>GlobalModerator</strong> = <code><span class="n">268435456</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="ParentalSettings">
+        <strong>ParentalSettings</strong> = <code><span class="n">536870912</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="ThirdPartySupport">
+        <strong>ThirdPartySupport</strong> = <code><span class="n">1073741824</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="NeedsSSANextSteamLogon">
+        <strong>NeedsSSANextSteamLogon</strong> = <code><span class="n">-2147483648</span></code>
+      </dt>
+      
+    
+  </dl>
+
+
+
+
+
+
+
+  <h2>Instance Method Summary</h2>
+  <ul class="list-summary">
+    
+      <li class="entry-summary">
+        <a href="#admin%3F-instance-method" class="signature"><strong>#admin?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#app_editor%3F-instance-method" class="signature"><strong>#app_editor?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#banned_from_web_api%3F-instance-method" class="signature"><strong>#banned_from_web_api?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#clans_only_from_friends%3F-instance-method" class="signature"><strong>#clans_only_from_friends?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#debug%3F-instance-method" class="signature"><strong>#debug?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#disabled%3F-instance-method" class="signature"><strong>#disabled?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#email_validated%3F-instance-method" class="signature"><strong>#email_validated?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#force_email_verification%3F-instance-method" class="signature"><strong>#force_email_verification?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#force_password_change%3F-instance-method" class="signature"><strong>#force_password_change?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#global_moderator%3F-instance-method" class="signature"><strong>#global_moderator?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#hwid_set%3F-instance-method" class="signature"><strong>#hwid_set?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#limited_user%3F-instance-method" class="signature"><strong>#limited_user?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#limited_user_force%3F-instance-method" class="signature"><strong>#limited_user_force?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#lockdown%3F-instance-method" class="signature"><strong>#lockdown?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#logon_extra_security%3F-instance-method" class="signature"><strong>#logon_extra_security?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#logon_extra_security_disabled%3F-instance-method" class="signature"><strong>#logon_extra_security_disabled?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#marketing_treatment%3F-instance-method" class="signature"><strong>#marketing_treatment?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#master_app_editor%3F-instance-method" class="signature"><strong>#master_app_editor?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#need_logs%3F-instance-method" class="signature"><strong>#need_logs?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#needs_ssa_next_steam_logon%3F-instance-method" class="signature"><strong>#needs_ssa_next_steam_logon?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#none%3F-instance-method" class="signature"><strong>#none?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#normal_user%3F-instance-method" class="signature"><strong>#normal_user?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#ogg_invite_opt_out%3F-instance-method" class="signature"><strong>#ogg_invite_opt_out?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#parental_settings%3F-instance-method" class="signature"><strong>#parental_settings?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#password_set%3F-instance-method" class="signature"><strong>#password_set?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#persona_name_set%3F-instance-method" class="signature"><strong>#persona_name_set?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#personal_qa_set%3F-instance-method" class="signature"><strong>#personal_qa_set?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#steam2_migration_complete%3F-instance-method" class="signature"><strong>#steam2_migration_complete?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#supervisor%3F-instance-method" class="signature"><strong>#supervisor?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#support%3F-instance-method" class="signature"><strong>#support?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#third_party_support%3F-instance-method" class="signature"><strong>#third_party_support?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#unbannable%3F-instance-method" class="signature"><strong>#unbannable?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#vac_beta%3F-instance-method" class="signature"><strong>#vac_beta?</strong></a>
+        
+      </li>
+    
+  </ul>
+
+
+
+
+
+<div class="methods-inherited">
+  
+    
+
+
+    
+
+
+    
+
+
+  
+    
+
+
+    
+
+
+    
+
+
+  
+    
+
+
+    
+
+
+    
+
+
+  
+    
+
+
+    
+
+
+    
+
+
+  
+</div>
+
+
+
+
+
+
+  <h2>Instance Method Detail</h2>
+  
+    <div class="entry-detail" id="admin?-instance-method">
+      <div class="signature">
+        
+        def <strong>admin?</strong>
+
+        <a class="method-permalink" href="#admin%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L8" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="app_editor?-instance-method">
+      <div class="signature">
+        
+        def <strong>app_editor?</strong>
+
+        <a class="method-permalink" href="#app_editor%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L10" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="banned_from_web_api?-instance-method">
+      <div class="signature">
+        
+        def <strong>banned_from_web_api?</strong>
+
+        <a class="method-permalink" href="#banned_from_web_api%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L29" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="clans_only_from_friends?-instance-method">
+      <div class="signature">
+        
+        def <strong>clans_only_from_friends?</strong>
+
+        <a class="method-permalink" href="#clans_only_from_friends%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L30" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="debug?-instance-method">
+      <div class="signature">
+        
+        def <strong>debug?</strong>
+
+        <a class="method-permalink" href="#debug%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L14" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="disabled?-instance-method">
+      <div class="signature">
+        
+        def <strong>disabled?</strong>
+
+        <a class="method-permalink" href="#disabled%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L15" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="email_validated?-instance-method">
+      <div class="signature">
+        
+        def <strong>email_validated?</strong>
+
+        <a class="method-permalink" href="#email_validated%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L18" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="force_email_verification?-instance-method">
+      <div class="signature">
+        
+        def <strong>force_email_verification?</strong>
+
+        <a class="method-permalink" href="#force_email_verification%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L22" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="force_password_change?-instance-method">
+      <div class="signature">
+        
+        def <strong>force_password_change?</strong>
+
+        <a class="method-permalink" href="#force_password_change%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L21" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="global_moderator?-instance-method">
+      <div class="signature">
+        
+        def <strong>global_moderator?</strong>
+
+        <a class="method-permalink" href="#global_moderator%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L31" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="hwid_set?-instance-method">
+      <div class="signature">
+        
+        def <strong>hwid_set?</strong>
+
+        <a class="method-permalink" href="#hwid_set%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L11" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="limited_user?-instance-method">
+      <div class="signature">
+        
+        def <strong>limited_user?</strong>
+
+        <a class="method-permalink" href="#limited_user%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L16" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="limited_user_force?-instance-method">
+      <div class="signature">
+        
+        def <strong>limited_user_force?</strong>
+
+        <a class="method-permalink" href="#limited_user_force%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L17" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="lockdown?-instance-method">
+      <div class="signature">
+        
+        def <strong>lockdown?</strong>
+
+        <a class="method-permalink" href="#lockdown%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L27" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="logon_extra_security?-instance-method">
+      <div class="signature">
+        
+        def <strong>logon_extra_security?</strong>
+
+        <a class="method-permalink" href="#logon_extra_security%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L23" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="logon_extra_security_disabled?-instance-method">
+      <div class="signature">
+        
+        def <strong>logon_extra_security_disabled?</strong>
+
+        <a class="method-permalink" href="#logon_extra_security_disabled%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L24" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="marketing_treatment?-instance-method">
+      <div class="signature">
+        
+        def <strong>marketing_treatment?</strong>
+
+        <a class="method-permalink" href="#marketing_treatment%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L19" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="master_app_editor?-instance-method">
+      <div class="signature">
+        
+        def <strong>master_app_editor?</strong>
+
+        <a class="method-permalink" href="#master_app_editor%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L28" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="need_logs?-instance-method">
+      <div class="signature">
+        
+        def <strong>need_logs?</strong>
+
+        <a class="method-permalink" href="#need_logs%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L26" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="needs_ssa_next_steam_logon?-instance-method">
+      <div class="signature">
+        
+        def <strong>needs_ssa_next_steam_logon?</strong>
+
+        <a class="method-permalink" href="#needs_ssa_next_steam_logon%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L34" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="none?-instance-method">
+      <div class="signature">
+        
+        def <strong>none?</strong>
+
+        <a class="method-permalink" href="#none%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L2" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="normal_user?-instance-method">
+      <div class="signature">
+        
+        def <strong>normal_user?</strong>
+
+        <a class="method-permalink" href="#normal_user%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L3" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="ogg_invite_opt_out?-instance-method">
+      <div class="signature">
+        
+        def <strong>ogg_invite_opt_out?</strong>
+
+        <a class="method-permalink" href="#ogg_invite_opt_out%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L20" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="parental_settings?-instance-method">
+      <div class="signature">
+        
+        def <strong>parental_settings?</strong>
+
+        <a class="method-permalink" href="#parental_settings%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L32" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="password_set?-instance-method">
+      <div class="signature">
+        
+        def <strong>password_set?</strong>
+
+        <a class="method-permalink" href="#password_set%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L6" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="persona_name_set?-instance-method">
+      <div class="signature">
+        
+        def <strong>persona_name_set?</strong>
+
+        <a class="method-permalink" href="#persona_name_set%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L4" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="personal_qa_set?-instance-method">
+      <div class="signature">
+        
+        def <strong>personal_qa_set?</strong>
+
+        <a class="method-permalink" href="#personal_qa_set%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L12" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="steam2_migration_complete?-instance-method">
+      <div class="signature">
+        
+        def <strong>steam2_migration_complete?</strong>
+
+        <a class="method-permalink" href="#steam2_migration_complete%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L25" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="supervisor?-instance-method">
+      <div class="signature">
+        
+        def <strong>supervisor?</strong>
+
+        <a class="method-permalink" href="#supervisor%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L9" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="support?-instance-method">
+      <div class="signature">
+        
+        def <strong>support?</strong>
+
+        <a class="method-permalink" href="#support%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L7" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="third_party_support?-instance-method">
+      <div class="signature">
+        
+        def <strong>third_party_support?</strong>
+
+        <a class="method-permalink" href="#third_party_support%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L33" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="unbannable?-instance-method">
+      <div class="signature">
+        
+        def <strong>unbannable?</strong>
+
+        <a class="method-permalink" href="#unbannable%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L5" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="vac_beta?-instance-method">
+      <div class="signature">
+        
+        def <strong>vac_beta?</strong>
+
+        <a class="method-permalink" href="#vac_beta%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountFlags.cr#L13" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+
+
+
+
+</div>
+
+</body>
+</html>

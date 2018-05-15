@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta id="repository-name" content="github.com/CerteXCm/steam.cr">
+  <link href="../css/style.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="../js/doc.js"></script>
+  <title>Steam::Totp - github.com/CerteXCm/steam.cr</title>
+</head>
+<body>
+
+<div id="types-list">
+  <div id="search-box">
+    <input type="search" id="search-input" placeholder="Search...">
+  </div>
+
+  <ul>
+    <li><a href="../index.html">README</a></li>
+  </ul>
+
+  <ul>
+  
+  <li class="parent open current" data-id="github.com/CerteXCm/steam.cr/Steam" data-name="steam">
+      <a href="../Steam.html">Steam</a>
+      
+        <ul>
+  
+  <li class=" " data-id="github.com/CerteXCm/steam.cr/Steam/EAccountFlags" data-name="steam::eaccountflags">
+      <a href="../Steam/EAccountFlags.html">EAccountFlags</a>
+      
+    </li>
+  
+  <li class=" " data-id="github.com/CerteXCm/steam.cr/Steam/EAccountType" data-name="steam::eaccounttype">
+      <a href="../Steam/EAccountType.html">EAccountType</a>
+      
+    </li>
+  
+  <li class=" " data-id="github.com/CerteXCm/steam.cr/Steam/EActivationCodeClass" data-name="steam::eactivationcodeclass">
+      <a href="../Steam/EActivationCodeClass.html">EActivationCodeClass</a>
+      
+    </li>
+  
+  <li class=" " data-id="github.com/CerteXCm/steam.cr/Steam/EAppInfoSection" data-name="steam::eappinfosection">
+      <a href="../Steam/EAppInfoSection.html">EAppInfoSection</a>
+      
+    </li>
+  
+  <li class=" current" data-id="github.com/CerteXCm/steam.cr/Steam/Totp" data-name="steam::totp">
+      <a href="../Steam/Totp.html">Totp</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+</div>
+
+<div id="main-content">
+<h1 class="type-name">
+
+  <span class="kind">class</span> Steam::Totp
+
+</h1>
+
+
+  <ul class="superclass-hierarchy"><li class="superclass"><a href="../Steam/Totp.html">Steam::Totp</a></li><li class="superclass">Reference</li><li class="superclass">Object</li></ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2>Defined in:</h2>
+  
+    
+      <a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/totp.cr#L5" target="_blank">steam/totp.cr</a>
+    
+    <br/>
+  
+
+
+
+  
+    <h2>Constant Summary</h2>
+  
+  <dl>
+    
+      <dt class="entry-const" id="CHARS">
+        <strong>CHARS</strong> = <code><span class="s">&quot;23456789BCDFGHJKMNPQRTVWXY&quot;</span></code>
+      </dt>
+      
+    
+  </dl>
+
+
+
+  <h2>Constructors</h2>
+  <ul class="list-summary">
+    
+      <li class="entry-summary">
+        <a href="#new%28secret%3AString%29-class-method" class="signature"><strong>.new</strong>(secret : String)</a>
+        
+      </li>
+    
+  </ul>
+
+
+
+
+
+  <h2>Instance Method Summary</h2>
+  <ul class="list-summary">
+    
+      <li class="entry-summary">
+        <a href="#generateAuthCode%28time%3AInt%3DTime.now.epoch%29-instance-method" class="signature"><strong>#generateAuthCode</strong>(time : Int = <span class="t">Time</span>.now.epoch)</a>
+        
+      </li>
+    
+  </ul>
+
+
+
+
+
+<div class="methods-inherited">
+  
+    
+
+
+    
+
+
+    
+
+
+  
+    
+
+
+    
+
+
+    
+
+
+  
+</div>
+
+
+  <h2>Constructor Detail</h2>
+  
+    <div class="entry-detail" id="new(secret:String)-class-method">
+      <div class="signature">
+        
+        def self.<strong>new</strong>(secret : String)
+
+        <a class="method-permalink" href="#new%28secret%3AString%29-class-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/totp.cr#L7" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+
+
+
+
+
+  <h2>Instance Method Detail</h2>
+  
+    <div class="entry-detail" id="generateAuthCode(time:Int=Time.now.epoch)-instance-method">
+      <div class="signature">
+        
+        def <strong>generateAuthCode</strong>(time : Int = <span class="t">Time</span>.now.epoch)
+
+        <a class="method-permalink" href="#generateAuthCode%28time%3AInt%3DTime.now.epoch%29-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/totp.cr#L11" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+
+
+
+
+</div>
+
+</body>
+</html>

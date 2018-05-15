@@ -1,0 +1,35 @@
+@[Flags]
+enum Steam::EAccountFlags
+  NormalUser
+  PersonaNameSet
+  Unbannable
+  PasswordSet
+  Support
+  Admin
+  Supervisor
+  AppEditor
+  HWIDSet
+  PersonalQASet
+  VacBeta
+  Debug
+  Disabled
+  LimitedUser
+  LimitedUserForce
+  EmailValidated
+  MarketingTreatment
+  OGGInviteOptOut
+  ForcePasswordChange
+  ForceEmailVerification
+  LogonExtraSecurity
+  LogonExtraSecurityDisabled
+  Steam2MigrationComplete
+  NeedLogs
+  Lockdown
+  MasterAppEditor
+  BannedFromWebAPI
+  ClansOnlyFromFriends
+  GlobalModerator
+  ParentalSettings
+  ThirdPartySupport
+  NeedsSSANextSteamLogon
+end

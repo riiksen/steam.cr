@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta id="repository-name" content="github.com/CerteXCm/steam.cr">
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="js/doc.js"></script>
+  <title>EAccountType - github.com/CerteXCm/steam.cr</title>
+</head>
+<body>
+
+<div id="types-list">
+  <div id="search-box">
+    <input type="search" id="search-input" placeholder="Search...">
+  </div>
+
+  <ul>
+    <li><a href="index.html">README</a></li>
+  </ul>
+
+  <ul>
+  
+  <li class=" " data-id="github.com/CerteXCm/steam.cr/EAccountFlags" data-name="eaccountflags">
+      <a href="EAccountFlags.html">EAccountFlags</a>
+      
+    </li>
+  
+  <li class=" current" data-id="github.com/CerteXCm/steam.cr/EAccountType" data-name="eaccounttype">
+      <a href="EAccountType.html">EAccountType</a>
+      
+    </li>
+  
+  <li class=" " data-id="github.com/CerteXCm/steam.cr/EActivationCodeClass" data-name="eactivationcodeclass">
+      <a href="EActivationCodeClass.html">EActivationCodeClass</a>
+      
+    </li>
+  
+  <li class=" " data-id="github.com/CerteXCm/steam.cr/EAppInfoSection" data-name="eappinfosection">
+      <a href="EAppInfoSection.html">EAppInfoSection</a>
+      
+    </li>
+  
+  <li class="parent " data-id="github.com/CerteXCm/steam.cr/Steam" data-name="steam">
+      <a href="Steam.html">Steam</a>
+      
+        <ul>
+  
+  <li class=" " data-id="github.com/CerteXCm/steam.cr/Steam/Totp" data-name="steam::totp">
+      <a href="Steam/Totp.html">Totp</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+</div>
+
+<div id="main-content">
+<h1 class="type-name">
+
+  <span class="kind">enum</span> EAccountType
+
+</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2>Defined in:</h2>
+  
+    
+      <a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountType.cr#L1" target="_blank">steam/enums/EAccountType.cr</a>
+    
+    <br/>
+  
+
+
+
+  
+    <h2>Enum Members</h2>
+  
+  <dl>
+    
+      <dt class="entry-const" id="Invalid">
+        <strong>Invalid</strong> = <code><span class="n">0</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="Individual">
+        <strong>Individual</strong> = <code><span class="n">1</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="Multiseat">
+        <strong>Multiseat</strong> = <code><span class="n">2</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="GameServer">
+        <strong>GameServer</strong> = <code><span class="n">3</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="AnonGameServer">
+        <strong>AnonGameServer</strong> = <code><span class="n">4</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="Pending">
+        <strong>Pending</strong> = <code><span class="n">5</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="ContentServer">
+        <strong>ContentServer</strong> = <code><span class="n">6</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="Clan">
+        <strong>Clan</strong> = <code><span class="n">7</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="Chat">
+        <strong>Chat</strong> = <code><span class="n">8</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="ConsoleUser">
+        <strong>ConsoleUser</strong> = <code><span class="n">9</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="AnonUser">
+        <strong>AnonUser</strong> = <code><span class="n">10</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="Max">
+        <strong>Max</strong> = <code><span class="n">11</span></code>
+      </dt>
+      
+    
+  </dl>
+
+
+
+
+
+
+
+  <h2>Instance Method Summary</h2>
+  <ul class="list-summary">
+    
+      <li class="entry-summary">
+        <a href="#anon_game_server%3F-instance-method" class="signature"><strong>#anon_game_server?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#anon_user%3F-instance-method" class="signature"><strong>#anon_user?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#chat%3F-instance-method" class="signature"><strong>#chat?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#clan%3F-instance-method" class="signature"><strong>#clan?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#console_user%3F-instance-method" class="signature"><strong>#console_user?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#content_server%3F-instance-method" class="signature"><strong>#content_server?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#game_server%3F-instance-method" class="signature"><strong>#game_server?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#individual%3F-instance-method" class="signature"><strong>#individual?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#invalid%3F-instance-method" class="signature"><strong>#invalid?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#max%3F-instance-method" class="signature"><strong>#max?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#multiseat%3F-instance-method" class="signature"><strong>#multiseat?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#pending%3F-instance-method" class="signature"><strong>#pending?</strong></a>
+        
+      </li>
+    
+  </ul>
+
+
+
+
+
+<div class="methods-inherited">
+  
+    
+
+
+    
+
+
+    
+
+
+  
+    
+
+
+    
+
+
+    
+
+
+  
+    
+
+
+    
+
+
+    
+
+
+  
+    
+
+
+    
+
+
+    
+
+
+  
+</div>
+
+
+
+
+
+
+  <h2>Instance Method Detail</h2>
+  
+    <div class="entry-detail" id="anon_game_server?-instance-method">
+      <div class="signature">
+        
+        def <strong>anon_game_server?</strong>
+
+        <a class="method-permalink" href="#anon_game_server%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountType.cr#L6" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="anon_user?-instance-method">
+      <div class="signature">
+        
+        def <strong>anon_user?</strong>
+
+        <a class="method-permalink" href="#anon_user%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountType.cr#L12" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="chat?-instance-method">
+      <div class="signature">
+        
+        def <strong>chat?</strong>
+
+        <a class="method-permalink" href="#chat%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountType.cr#L10" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="clan?-instance-method">
+      <div class="signature">
+        
+        def <strong>clan?</strong>
+
+        <a class="method-permalink" href="#clan%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountType.cr#L9" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="console_user?-instance-method">
+      <div class="signature">
+        
+        def <strong>console_user?</strong>
+
+        <a class="method-permalink" href="#console_user%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountType.cr#L11" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="content_server?-instance-method">
+      <div class="signature">
+        
+        def <strong>content_server?</strong>
+
+        <a class="method-permalink" href="#content_server%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountType.cr#L8" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="game_server?-instance-method">
+      <div class="signature">
+        
+        def <strong>game_server?</strong>
+
+        <a class="method-permalink" href="#game_server%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountType.cr#L5" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="individual?-instance-method">
+      <div class="signature">
+        
+        def <strong>individual?</strong>
+
+        <a class="method-permalink" href="#individual%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountType.cr#L3" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="invalid?-instance-method">
+      <div class="signature">
+        
+        def <strong>invalid?</strong>
+
+        <a class="method-permalink" href="#invalid%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountType.cr#L2" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="max?-instance-method">
+      <div class="signature">
+        
+        def <strong>max?</strong>
+
+        <a class="method-permalink" href="#max%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountType.cr#L13" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="multiseat?-instance-method">
+      <div class="signature">
+        
+        def <strong>multiseat?</strong>
+
+        <a class="method-permalink" href="#multiseat%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountType.cr#L4" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="pending?-instance-method">
+      <div class="signature">
+        
+        def <strong>pending?</strong>
+
+        <a class="method-permalink" href="#pending%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/CerteXCm/steam.cr/blob/555bd0fd62628a4133e93e9bc78bda1d272d46ae/src/steam/enums/EAccountType.cr#L7" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+
+
+
+
+</div>
+
+</body>
+</html>
