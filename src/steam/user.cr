@@ -1,7 +1,13 @@
 class Steam::User
-  
+  @steam_id : Int?
+  @
+
   def initialize()
 
+  end
+
+  def request_validation_email
+    
   end
 
   def log_on(**details)
